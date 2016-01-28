@@ -1,0 +1,6 @@
+<strings>
+    <string id="AppName">AltFields</string>
+
+    <string id="vrunner_speed_test">Virtual runner speed (seconds per km)</string>
+    <string id="graph_scale">Graph scale (seconds per bar)</string>
+</strings>

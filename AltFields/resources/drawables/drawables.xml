@@ -1,0 +1,9 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="HeartIcon" filename="red_heart.png" />
+    <bitmap id="Runner" filename="runner.png" />
+    <bitmap id="Runner2" filename="runner2.png" />
+    <bitmap id="HeartIconBlack" filename="red_heart_bl.png" />
+    <bitmap id="RunnerBlack" filename="runner_bl.png" />
+    <bitmap id="Runner2Black" filename="runner2_bl.png" />        
+</drawables>
