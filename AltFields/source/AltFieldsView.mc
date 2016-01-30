@@ -3,31 +3,107 @@ using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 
 class AltFieldsView extends Ui.DataField {
-	var vRunnerSpeed= 300;
-	var cadence= 0;
+	var posSemiRound= [
+		44 ,5,
+		112, -1,
+		66, 60,
+		155, 60,
+		68, 120,
+		147, 120,
+		141, 17, 32,
+		60, 72, 
+		156, 132
+	]; 
+	var posRound= [
+		54 ,13,
+		115, 13,
+		66, 76,
+		157, 76,
+		72, 139,
+		147, 139,
+		143, 32, 47,
+		61, 83, 
+		158, 146
+	];
+	var pace= new MovingAverage();
+	var pos= posSemiRound;
+	
+	var vRunnerSpeed= 310;
 	var ghost= 0;
 	var time= "00:00";
 	var timeSub= null;
 	var distance= 0;
-	var avgPace= "---";
-	var altitude= 0;
 	var battery= 0;
 	var heartRateGraph= new HeartRateGraph();
 	var runnerImg;
 	var ghostImg;
-	var heartImg;
+	var graphImg;
 	var blackBG;
-	
+	enum {
+		Pace,
+		Cadence,
+		HeartRate,
+		Altitude,
+		AvgPace,
+		StrideLen,
+		Calories,
+		TrainEffect
+	}
+	var fld1Type;
+	var fld5Type;
+	var fld6Type;
+	var fld5Txt;
+	var fld5Val;
+	var fld6Txt;
+	var fld6Val;
 
     function initialize() {
         DataField.initialize();
-        vRunnerSpeed= Application.getApp().getProperty("VRUNNER_SPEED");
-        heartRateGraph.initialize(Application.getApp().getProperty("GRAPH_SCALE"));
+        var app= Application.getApp();
+        vRunnerSpeed= app.getProperty("VRUNNER_SPEED");
+        heartRateGraph.initialize(app.getProperty("GRAPH_SCALE"));
+        fld1Type= app.getProperty("GRAPH").toNumber();
+        fld5Type= app.getProperty("FIFTH_FIELD").toNumber();
+        fld5Txt=getFieldLabel(fld5Type);
+        fld6Type= app.getProperty("SIXTH_FIELD").toNumber();
+        fld6Txt=getFieldLabel(fld6Type);
         blackBG= getBackgroundColor() == Gfx.COLOR_BLACK;
         runnerImg= getImage(Rez.Drawables.Runner, Rez.Drawables.RunnerBlack);
         ghostImg= getImage(Rez.Drawables.Runner2, Rez.Drawables.Runner2Black );
-        heartImg= getImage(Rez.Drawables.HeartIcon, Rez.Drawables.HeartIconBlack );
+        graphImg= fld1Type==HeartRate ? 
+        	getImage(Rez.Drawables.HeartIcon, Rez.Drawables.HeartIconBlack ) :
+        	getImage(Rez.Drawables.AltIcon, Rez.Drawables.AltIconBlack );
+        
+        var movingAvg= Application.getApp().getProperty("MOVING_AVG").toNumber();
+        pace.init(movingAvg);
     }
+    
+    function getFieldLabel(type) {
+    	var res= Rez.Strings.stridelen_sh;
+    	if (type == Pace) {
+    		res= Rez.Strings.pace;
+    	} else
+    	if (type == Cadence) {
+    		res= Rez.Strings.cadence;
+    	} else
+    	if (type == AvgPace) {
+    		res= Rez.Strings.avgpace_sh;
+    	} else
+    	if (type == Calories) {
+    		res= Rez.Strings.calories;
+    	} else
+    	if (type == TrainEffect) {
+    		res= Rez.Strings.traineffect_sh;
+    	}
+    	return Ui.loadResource(res);
+    }
+    
+    function onLayout(dc) {    
+        View.setLayout(Rez.Layouts.Main(dc));
+        View.findDrawableById("Background").setColor(getBackgroundColor());
+        pos= dc.getHeight() > 180 ? posRound : posSemiRound;
+    }
+    
     
     function getImage(img1, img2) {
     	return Ui.loadResource( blackBG ? img2 : img1);
@@ -40,9 +116,7 @@ class AltFieldsView extends Ui.DataField {
     //! The given info object contains all the current workout
     //! information. Calculate a value and save it locally in this method.
     function compute(info) {
-		if (info!=null) {
-			cadence = info.currentCadence == null ? 0 : info.currentCadence;
-			
+		if (info!=null) {			
 			if (info.timerTime  != null) {
 				var secs= info.timerTime  / 1000;
 				if (secs >= 3600) {
@@ -58,77 +132,105 @@ class AltFieldsView extends Ui.DataField {
 				}
 			}
 	        distance = info.elapsedDistance == null ? 0 : (info.elapsedDistance / 1000);	
+	        pace.push(distance*1000);
+	        fld5Val= getFieldValue(fld5Type, info);
+	        fld6Val= getFieldValue(fld6Type, info);	        
+
+			battery= System.getSystemStats().battery;
+			heartRateGraph.store(fld1Type == HeartRate ? info.currentHeartRate : info.altitude);
+	    } 
+    }
+    
+    function getFieldValue(type, info) {
+		if (type == AvgPace) {
 	        if (info.averageSpeed != null && info.averageSpeed > 0) {
 	            var pace= (1000/info.averageSpeed).toNumber();
-	            avgPace= asTime(pace);
+	            return asTime(pace);
 	        } else {
-	            avgPace= "---";
-	        }
-			altitude= info.altitude == null ? 0 : info.altitude;
-			battery= System.getSystemStats().battery;
-			heartRateGraph.store(info.currentHeartRate);
-	    } 
+	            return "---";
+	        }		
+		}
+    	if (type == Pace) {
+    		var p= pace.get();
+    		return p<= 0 ? "---" : asTime( (1000 / p).toNumber() );
+    	}
+    	if (type == Cadence) {
+    		return info.currentCadence == null ? "0" : info.currentCadence.format("%d");
+    	}
+    	if (type == StrideLen) {
+    		var p= pace.get();
+    		return p<=0 || info.currentCadence == null ? "---" : (p * 6000 / info.currentCadence).format("%d");
+    	}
+    	if (type == Calories) {
+    		return info.calories;
+    	}
+    	if (type == TrainEffect) {
+    		return info.trainingEffect.format("%.2f");
+    	}
+    	return "000";    	
     }
 
     //! Display the value you computed here. This will be called
     //! once a second when the data field is visible.
-    function onUpdate(dc) {        
+    function onUpdate(dc) {
     	var width= dc.getWidth();
     	var height= dc.getHeight();
-    	var w3_4= width*3/4;
+    	var isRound= dc.getHeight() > 180;
+    	
     	var w1_2= width/2;
-    	var w1_4= width/4;
-    	var h1_3= height/3;
-    	var h2_3= height*2/3;
+    	var h1_3= height/3 + (isRound ? 6 : 0);
+    	var h2_3= height*2/3 - (isRound ? 5 : 0);
     	     
     	// Set the background color
 		var bgColor= Gfx.COLOR_TRANSPARENT; 
 		var color= blackBG ? Gfx.COLOR_WHITE : Gfx.COLOR_BLACK;
 		var color2= blackBG ? Gfx.COLOR_LT_GRAY : Gfx.COLOR_DK_GRAY;
 		
-		dc.drawBitmap(44, 5, heartImg);
+		dc.setColor(Gfx.COLOR_TRANSPARENT, bgColor);
+		dc.clear();
+    	// Call parent’s onUpdate(dc) to redraw the layout
+        View.onUpdate( dc );
 		
-		
+		dc.drawBitmap(pos[0], pos[1], graphImg);
 		dc.setColor(color2 , bgColor);
-//        dc.drawText(width/2 - 12, 0, Gfx.FONT_TINY, "Altitude", Gfx.TEXT_JUSTIFY_RIGHT);
-        dc.drawText(w3_4 - 18, -1, Gfx.FONT_TINY, "Ghost "+ asTime(vRunnerSpeed), Gfx.TEXT_JUSTIFY_CENTER); 
-        dc.drawText(w1_4 + 12, h1_3, Gfx.FONT_TINY, "Timer", Gfx.TEXT_JUSTIFY_CENTER);
-        dc.drawText(w3_4 - 6, h1_3, Gfx.FONT_TINY, "Distance", Gfx.TEXT_JUSTIFY_CENTER); 
-        dc.drawText(w1_4 + 12, h2_3, Gfx.FONT_TINY, "Avg Pace", Gfx.TEXT_JUSTIFY_CENTER);       
-        dc.drawText(w3_4 - 12, h2_3, Gfx.FONT_TINY, "Cadence", Gfx.TEXT_JUSTIFY_CENTER);  
+        dc.drawText(pos[2], pos[3], Gfx.FONT_TINY, "VR "+ asTime(vRunnerSpeed), Gfx.TEXT_JUSTIFY_LEFT); 
+        dc.drawText(pos[4], pos[5], Gfx.FONT_TINY, "Timer", Gfx.TEXT_JUSTIFY_CENTER);
+        dc.drawText(pos[6], pos[7], Gfx.FONT_TINY, "Distance", Gfx.TEXT_JUSTIFY_CENTER); 
+        dc.drawText(pos[8], pos[9], Gfx.FONT_TINY, fld5Txt, Gfx.TEXT_JUSTIFY_CENTER);       
+        dc.drawText(pos[10], pos[11], Gfx.FONT_TINY, fld6Txt, Gfx.TEXT_JUSTIFY_CENTER);  
 		
-//		dc.setColor(color, bgColor);
-//        dc.drawText(width/2 - 12, 0 + 12, Gfx.FONT_NUMBER_MEDIUM,  altitude.format("%d"), Gfx.TEXT_JUSTIFY_RIGHT);
 
-		heartRateGraph.draw(dc, color);
-      
+		heartRateGraph.draw(dc, color, fld1Type == HeartRate ? Gfx.COLOR_RED : Gfx.COLOR_YELLOW);
       	var absghost= (ghost < 0 ? -ghost : ghost);
-  		var pix=  absghost / 5;
+  		var pix=  absghost / 6;
 	    if (pix < 64) { 
-	    	dc.drawBitmap(w3_4 - pix/2 -20, 18, ghost < 0 ? runnerImg : ghostImg);
+	    	dc.drawBitmap(pos[12] - pix/2, pos[13], ghost < 0 ? runnerImg : ghostImg);
 	    } else {
 	        pix= 64;
 	    }			
-	    dc.drawBitmap(w3_4 + pix/2 -20, 18, ghost < 0 ? ghostImg : runnerImg); 
+	    dc.drawBitmap(pos[12] + pix/2, pos[13], ghost < 0 ? ghostImg : runnerImg); 
 		dc.setColor(ghost < 0 ? Gfx.COLOR_DK_RED : Gfx.COLOR_DK_BLUE, bgColor); 
-		dc.drawText(w1_2 + dc.getTextWidthInPixels(absghost.format("%d"), Gfx.FONT_NUMBER_MILD) + 5, 
-						42, Gfx.FONT_SMALL, "m "+ (ghost < 0 ? "behind" : "ahead"), Gfx.TEXT_JUSTIFY_LEFT);    
+		dc.drawText(pos[2] + dc.getTextWidthInPixels(absghost.format("%d"), Gfx.FONT_NUMBER_MILD), 
+						pos[14]+10, isRound ? Gfx.FONT_TINY : Gfx.FONT_SMALL, "m "+ (ghost < 0 ? "behind" : "ahead"), Gfx.TEXT_JUSTIFY_LEFT);    
 		
-		dc.drawText(width/2 + 4, 33, Gfx.FONT_NUMBER_MILD, absghost.format("%d"), Gfx.TEXT_JUSTIFY_LEFT);
+		dc.drawText(pos[2], pos[14], Gfx.FONT_NUMBER_MILD, absghost.format("%d"), Gfx.TEXT_JUSTIFY_LEFT);
 		
 
         dc.setColor(color, bgColor);
         if (timeSub != null) {
-        	dc.drawText(w1_2 - 30, h1_3 + 14, Gfx.FONT_NUMBER_MEDIUM, time, Gfx.TEXT_JUSTIFY_RIGHT);
-        	dc.setColor(color2, bgColor);
-        	dc.drawText(w1_2 - 6, h1_3 + 28, Gfx.FONT_NUMBER_MILD, timeSub, Gfx.TEXT_JUSTIFY_RIGHT);
-        	dc.setColor(color, bgColor);
+        	if (isRound) {
+        		dc.drawText(pos[15]-6, pos[16], Gfx.FONT_NUMBER_MEDIUM, time+":"+timeSub, Gfx.TEXT_JUSTIFY_CENTER);
+        	} else {
+        		dc.drawText(pos[15]+15, pos[16], Gfx.FONT_NUMBER_MEDIUM, time, Gfx.TEXT_JUSTIFY_RIGHT);
+        		dc.drawText(pos[15]+39, pos[16]+14, Gfx.FONT_NUMBER_MILD, timeSub, Gfx.TEXT_JUSTIFY_RIGHT);
+        	}	
 		} else {
-			dc.drawText(w1_4 + 6, h1_3 + 14, Gfx.FONT_NUMBER_MEDIUM, time, Gfx.TEXT_JUSTIFY_CENTER);
+			dc.drawText(pos[15], pos[16], Gfx.FONT_NUMBER_MEDIUM, time, Gfx.TEXT_JUSTIFY_CENTER);
 		}
- 		dc.drawText(w3_4 - 6, h1_3 + 14, Gfx.FONT_NUMBER_MEDIUM, distance.format("%.2f"), Gfx.TEXT_JUSTIFY_CENTER);
- 		dc.drawText(w1_2 - 12, h2_3 + 12, Gfx.FONT_NUMBER_MEDIUM, avgPace, Gfx.TEXT_JUSTIFY_RIGHT);
-        dc.drawText(w3_4 - 12, h2_3 + 12, Gfx.FONT_NUMBER_MEDIUM, cadence.format("%d"), Gfx.TEXT_JUSTIFY_CENTER); 
+ 		dc.drawText(pos[17], pos[16], Gfx.FONT_NUMBER_MEDIUM, distance.format("%.2f"), Gfx.TEXT_JUSTIFY_CENTER);
+ 		
+ 		dc.drawText(pos[8], pos[18], Gfx.FONT_NUMBER_MEDIUM, fld5Val, Gfx.TEXT_JUSTIFY_CENTER);
+        dc.drawText(pos[10], pos[18], Gfx.FONT_NUMBER_MEDIUM, fld6Val, Gfx.TEXT_JUSTIFY_CENTER); 
        
 		var batInd= 34 * battery / 100.0 - 17;
         dc.setPenWidth(10);

@@ -6,7 +6,7 @@ class Background extends Ui.Drawable {
 
     hidden var mColor;
 
-    function initialize() {    
+    function initialize() {
         var dictionary = {
             :identifier => "Background"
         };
@@ -14,11 +14,11 @@ class Background extends Ui.Drawable {
         Drawable.initialize(dictionary);
     }
 
-    function setColor(color) {    
+    function setColor(color) {
         mColor = color;
     }
 
-    function draw(dc) {    
+    function draw(dc) {
         dc.setColor(Gfx.COLOR_TRANSPARENT, mColor);
         dc.clear();
     }

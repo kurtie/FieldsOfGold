@@ -3,15 +3,53 @@
     <properties>
         <property id="VRUNNER_SPEED" type="number">300</property>
         <property id="GRAPH_SCALE" type="number">5</property>
+        <property id="GRAPH" type="number">2</property>
+        <property id="FIFTH_FIELD" type="number">4</property>
+        <property id="SIXTH_FIELD" type="number">0</property>
+        <property id="MOVING_AVG" type="number">10</property>
     </properties>
 
 	<settings>
     	<setting propertyKey="@Properties.VRUNNER_SPEED" title="@Strings.vrunner_speed_test">
         	<settingConfig type="numeric" required="true" />
     	</setting>
+    	
     	<setting propertyKey="@Properties.GRAPH_SCALE" title="@Strings.graph_scale">
         	<settingConfig type="numeric" required="true" />
     	</setting>
+
+    	<setting propertyKey="@Properties.GRAPH" title="@Strings.graph">
+    		<settingConfig type="list" required="true">
+            	<listEntry value="2">@Strings.heartRate</listEntry>
+            	<listEntry value="3">@Strings.altitude</listEntry>
+        	</settingConfig>
+    	</setting>
+
+    	<setting propertyKey="@Properties.FIFTH_FIELD" title="@Strings.fifthField">
+    		<settingConfig type="list" required="true">
+            	<listEntry value="0">@Strings.pace</listEntry>
+            	<listEntry value="4">@Strings.avgpace</listEntry>
+            	<listEntry value="1">@Strings.cadence</listEntry>
+            	<listEntry value="5">@Strings.stridelen</listEntry>
+            	<listEntry value="6">@Strings.calories</listEntry>
+            	<listEntry value="7">@Strings.traineffect</listEntry>
+        	</settingConfig>
+    	</setting>
+    	
+    	<setting propertyKey="@Properties.SIXTH_FIELD" title="@Strings.sixthField" prompt="@Strings.prompt">
+    		<settingConfig type="list" required="true">
+            	<listEntry value="0">@Strings.pace</listEntry>
+            	<listEntry value="4">@Strings.avgpace</listEntry>
+            	<listEntry value="1">@Strings.cadence</listEntry>
+            	<listEntry value="5">@Strings.stridelen</listEntry>
+            	<listEntry value="6">@Strings.calories</listEntry>
+            	<listEntry value="7">@Strings.traineffect</listEntry>
+        	</settingConfig>
+    	</setting>
+    	
+    	<setting propertyKey="@Properties.MOVING_AVG" title="@Strings.movingAvg">
+        	<settingConfig type="numeric" required="true" />
+    	</setting>    	
 	</settings>
 
 </resources>

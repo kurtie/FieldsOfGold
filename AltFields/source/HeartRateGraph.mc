@@ -38,7 +38,7 @@ class HeartRateGraph {
 	
 	function recalcMaxMin() {
 		maxHr= heartRates[0];
-		minHr= 160;
+		minHr= 160000;
 		for (var i=0; i<HRMAX; i++) {
 		    var v= heartRates[i];
 			if (v > maxHr) {
@@ -49,21 +49,29 @@ class HeartRateGraph {
 			}
 		}
 		minHr -= 1;
+		var maxHeight= maxHr - minHr;
+		if (maxHeight < 35) {
+			var t= (35 - maxHeight) / 2;
+			maxHr += t;
+			minHr -= t;
+		}
 	}
 	
-	function draw(dc, color) {
+	function draw(dc, color, gColor) {
 		var h= dc.getHeight()/3;
-		dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
+		var vAdj= h>60 ? 6 : 0;
+		
+		dc.setColor(gColor, Gfx.COLOR_TRANSPARENT);
 		var maxHeight= maxHr - minHr;
 	
 		for (var i=0; i<HRMAX; i++) {
 			var ptr= (i + idx/SCALE) % HRMAX;
-		    var barHeight= maxHeight <= 0 ? 0 : (heartRates[ptr] - minHr) * (h - 25) / maxHeight;
-		    dc.fillRectangle( i+i, h - barHeight, 2, barHeight);
+		    var barHeight= maxHeight <= 0 ? 0 : ((heartRates[ptr] - minHr) * (h - 25) / maxHeight).toNumber();
+		    dc.fillRectangle( i+i, h - barHeight + vAdj, 2, barHeight);
 		}
 		
 		dc.setColor(color, Gfx.COLOR_TRANSPARENT);
-        dc.drawText(dc.getWidth()/2 - 12, -2, Gfx.FONT_NUMBER_MILD,  currentHR.format("%d"), Gfx.TEXT_JUSTIFY_RIGHT);
+        dc.drawText(dc.getWidth()/4 + 32 + vAdj, -2 + vAdj, Gfx.FONT_NUMBER_MILD,  currentHR.format("%d"), Gfx.TEXT_JUSTIFY_CENTER);
 			
 	}
 }

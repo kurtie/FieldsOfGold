@@ -1,185 +1,210 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="15" pc="268435458" symbol="initialize"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="16" pc="268435468" symbol="initialize"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="17" pc="268435489" symbol="initialize"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="23" pc="268435521" symbol="store"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="24" pc="268435528" symbol="store"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="26" pc="268435532" symbol="store"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="27" pc="268435542" symbol="store"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="28" pc="268435558" symbol="store"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="30" pc="268435577" symbol="store"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="31" pc="268435600" symbol="store"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="33" pc="268435615" symbol="store"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="34" pc="268435641" symbol="store"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="35" pc="268435693" symbol="store"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="40" pc="268435712" symbol="recalcMaxMin"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="41" pc="268435734" symbol="recalcMaxMin"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="42" pc="268435747" symbol="recalcMaxMin"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="43" pc="268435768" symbol="recalcMaxMin"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="44" pc="268435781" symbol="recalcMaxMin"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="45" pc="268435795" symbol="recalcMaxMin"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="47" pc="268435808" symbol="recalcMaxMin"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="48" pc="268435836" symbol="recalcMaxMin"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="51" pc="268435862" symbol="recalcMaxMin"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="55" pc="268435884" symbol="draw"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="56" pc="268435903" symbol="draw"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="57" pc="268435939" symbol="draw"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="59" pc="268435958" symbol="draw"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="60" pc="268435979" symbol="draw"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="61" pc="268436010" symbol="draw"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="62" pc="268436063" symbol="draw"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="65" pc="268436105" symbol="draw"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="66" pc="268436131" symbol="draw"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="7" pc="268441690" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="23" pc="268436226" symbol="initialize"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="24" pc="268436244" symbol="initialize"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="25" pc="268436283" symbol="initialize"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="26" pc="268436332" symbol="initialize"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="27" pc="268436364" symbol="initialize"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="28" pc="268436423" symbol="initialize"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="29" pc="268436482" symbol="initialize"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="33" pc="268436544" symbol="getImage"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="37" pc="268436581" symbol="asTime"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="43" pc="268436622" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="44" pc="268436629" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="46" pc="268436666" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="47" pc="268436679" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="48" pc="268436695" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="49" pc="268436706" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="50" pc="268436757" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="52" pc="268436790" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="53" pc="268436811" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="55" pc="268436820" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="56" pc="268436833" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="57" pc="268436852" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="60" pc="268436877" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="61" pc="268436920" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="62" pc="268436953" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="63" pc="268436978" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="65" pc="268437002" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="67" pc="268437015" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="68" pc="268437052" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="69" pc="268437083" symbol="compute"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="76" pc="268437115" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="77" pc="268437128" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="78" pc="268437141" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="79" pc="268437157" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="80" pc="268437167" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="81" pc="268437177" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="82" pc="268437187" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="85" pc="268437203" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="86" pc="268437217" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="87" pc="268437257" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="89" pc="268437297" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="92" pc="268437327" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="94" pc="268437343" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="95" pc="268437423" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="96" pc="268437474" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="97" pc="268437525" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="98" pc="268437576" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="103" pc="268437627" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="105" pc="268437649" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="106" pc="268437693" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="107" pc="268437703" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="108" pc="268437714" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="110" pc="268437787" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="112" pc="268437794" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="113" pc="268437864" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="114" pc="268437922" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="117" pc="268438047" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="120" pc="268438118" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="121" pc="268438134" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="122" pc="268438147" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="123" pc="268438207" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="124" pc="268438223" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="125" pc="268438283" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="127" pc="268438302" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="129" pc="268438362" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="130" pc="268438436" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="131" pc="268438496" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="133" pc="268438570" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="134" pc="268438598" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="135" pc="268438615" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="136" pc="268438641" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="137" pc="268438683" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="140" pc="268438793" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="141" pc="268438809" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="144" pc="268438857" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="145" pc="268438874" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="146" pc="268438900" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="147" pc="268438923" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="148" pc="268438946" symbol="onUpdate"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="10" pc="268441726" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="15" pc="268441735" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsBackground.mc" lineNum="10" pc="268438972" symbol="initialize"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsBackground.mc" lineNum="14" pc="268438993" symbol="initialize"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsBackground.mc" lineNum="18" pc="268439016" symbol="setColor"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsBackground.mc" lineNum="22" pc="268439029" symbol="draw"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsBackground.mc" lineNum="23" pc="268439061" symbol="draw"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsApp.mc" lineNum="7" pc="268439076" symbol="initialize"/>
-<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsApp.mc" lineNum="20" pc="268439103" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="5" pc="268441625" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="6" pc="268441634" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="7" pc="268441643" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="12" pc="268441558" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="13" pc="268441567" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="14" pc="268441576" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="15" pc="268441585" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="16" pc="268441594" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="17" pc="268441603" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="18" pc="268441612" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="27" pc="268439143" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="28" pc="268439168" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="29" pc="268439195" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="31" pc="268439211" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="32" pc="268439225" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="33" pc="268439322" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="34" pc="268439337" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="35" pc="268439389" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="36" pc="268439435" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="37" pc="268439449" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="38" pc="268439546" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="39" pc="268439561" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="40" pc="268439613" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="41" pc="268439659" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="42" pc="268439673" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="43" pc="268439796" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="44" pc="268439810" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="45" pc="268439933" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="55" pc="268439993" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="56" pc="268440018" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="57" pc="268440045" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="59" pc="268440061" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="60" pc="268440075" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="61" pc="268440198" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="62" pc="268440212" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="63" pc="268440335" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="73" pc="268440375" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="74" pc="268440400" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="75" pc="268440427" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="77" pc="268440443" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="78" pc="268440457" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="79" pc="268440580" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="80" pc="268440594" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="81" pc="268440717" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="91" pc="268440757" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="92" pc="268440782" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="93" pc="268440809" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="95" pc="268440825" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="96" pc="268440839" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="97" pc="268440962" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="98" pc="268440976" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="99" pc="268441099" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="109" pc="268441139" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="110" pc="268441164" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="111" pc="268441191" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="113" pc="268441207" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="114" pc="268441221" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="115" pc="268441344" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="116" pc="268441358" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="117" pc="268441481" symbol="BottomRightLayout"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\MovingAverage.mc" lineNum="7" pc="268435458" symbol="init"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\MovingAverage.mc" lineNum="8" pc="268435468" symbol="init"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\MovingAverage.mc" lineNum="9" pc="268435485" symbol="init"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\MovingAverage.mc" lineNum="10" pc="268435506" symbol="init"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\MovingAverage.mc" lineNum="15" pc="268435538" symbol="push"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\MovingAverage.mc" lineNum="16" pc="268435569" symbol="push"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\MovingAverage.mc" lineNum="20" pc="268435591" symbol="get"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="15" pc="268435655" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="16" pc="268435665" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="17" pc="268435686" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="23" pc="268435718" symbol="store"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="24" pc="268435725" symbol="store"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="26" pc="268435729" symbol="store"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="27" pc="268435739" symbol="store"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="28" pc="268435755" symbol="store"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="30" pc="268435774" symbol="store"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="31" pc="268435797" symbol="store"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="33" pc="268435812" symbol="store"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="34" pc="268435838" symbol="store"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="35" pc="268435890" symbol="store"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="40" pc="268435909" symbol="recalcMaxMin"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="41" pc="268435931" symbol="recalcMaxMin"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="42" pc="268435944" symbol="recalcMaxMin"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="43" pc="268435965" symbol="recalcMaxMin"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="44" pc="268435978" symbol="recalcMaxMin"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="45" pc="268435992" symbol="recalcMaxMin"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="47" pc="268436005" symbol="recalcMaxMin"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="48" pc="268436033" symbol="recalcMaxMin"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="51" pc="268436059" symbol="recalcMaxMin"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="52" pc="268436078" symbol="recalcMaxMin"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="53" pc="268436097" symbol="recalcMaxMin"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="54" pc="268436108" symbol="recalcMaxMin"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="55" pc="268436124" symbol="recalcMaxMin"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="56" pc="268436140" symbol="recalcMaxMin"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="61" pc="268436162" symbol="draw"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="62" pc="268436181" symbol="draw"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="64" pc="268436207" symbol="draw"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="65" pc="268436233" symbol="draw"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="67" pc="268436252" symbol="draw"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="68" pc="268436273" symbol="draw"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="69" pc="268436304" symbol="draw"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="70" pc="268436366" symbol="draw"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="73" pc="268436411" symbol="draw"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="74" pc="268436437" symbol="draw"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\HeartRateGraph.mc" lineNum="7" pc="268441384" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="61" pc="268436538" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="62" pc="268436556" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="63" pc="268436575" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="64" pc="268436599" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="65" pc="268436633" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="66" pc="268436666" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="67" pc="268436699" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="68" pc="268436726" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="69" pc="268436759" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="70" pc="268436786" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="71" pc="268436818" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="72" pc="268436877" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="73" pc="268436936" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="77" pc="268437069" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="78" pc="268437111" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="82" pc="268437134" symbol="getFieldLabel"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="83" pc="268437156" symbol="getFieldLabel"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="84" pc="268437170" symbol="getFieldLabel"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="87" pc="268437209" symbol="getFieldLabel"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="90" pc="268437248" symbol="getFieldLabel"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="93" pc="268437287" symbol="getFieldLabel"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="96" pc="268437326" symbol="getFieldLabel"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="98" pc="268437351" symbol="getFieldLabel"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="102" pc="268437372" symbol="onLayout"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="103" pc="268437415" symbol="onLayout"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="104" pc="268437458" symbol="onLayout"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="109" pc="268437508" symbol="getImage"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="113" pc="268437545" symbol="asTime"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="119" pc="268437586" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="120" pc="268437593" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="121" pc="268437606" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="122" pc="268437622" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="123" pc="268437633" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="124" pc="268437684" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="126" pc="268437717" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="127" pc="268437738" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="129" pc="268437747" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="130" pc="268437760" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="131" pc="268437779" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="134" pc="268437804" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="135" pc="268437847" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="136" pc="268437879" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="137" pc="268437908" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="139" pc="268437937" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="140" pc="268437968" symbol="compute"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="145" pc="268438031" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="146" pc="268438045" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="147" pc="268438078" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="148" pc="268438103" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="150" pc="268438120" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="153" pc="268438129" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="154" pc="268438143" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="155" pc="268438162" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="157" pc="268438213" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="158" pc="268438227" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="160" pc="268438274" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="161" pc="268438288" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="162" pc="268438307" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="164" pc="268438377" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="165" pc="268438391" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="167" pc="268438403" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="168" pc="268438417" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="170" pc="268438443" symbol="getFieldValue"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="176" pc="268438452" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="177" pc="268438465" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="178" pc="268438478" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="180" pc="268438497" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="181" pc="268438507" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="182" pc="268438536" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="185" pc="268438571" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="186" pc="268438585" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="187" pc="268438625" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="189" pc="268438665" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="190" pc="268438691" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="192" pc="268438703" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="194" pc="268438723" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="195" pc="268438771" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="196" pc="268438787" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="197" pc="268438876" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="198" pc="268438945" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="199" pc="268439014" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="200" pc="268439086" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="203" pc="268439158" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="204" pc="268439227" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="205" pc="268439271" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="206" pc="268439281" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="207" pc="268439292" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="209" pc="268439380" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="211" pc="268439387" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="212" pc="268439472" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="213" pc="268439530" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="216" pc="268439696" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="219" pc="268439776" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="220" pc="268439792" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="221" pc="268439805" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="222" pc="268439810" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="224" pc="268439906" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="225" pc="268439984" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="228" pc="268440071" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="230" pc="268440143" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="232" pc="268440229" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="233" pc="268440301" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="235" pc="268440373" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="236" pc="268440401" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="237" pc="268440418" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="238" pc="268440444" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="239" pc="268440486" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="242" pc="268440596" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="243" pc="268440612" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="246" pc="268440660" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="247" pc="268440677" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="248" pc="268440703" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="249" pc="268440726" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="250" pc="268440749" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="6" pc="268441420" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="17" pc="268441687" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="28" pc="268441948" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="29" pc="268441978" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="34" pc="268441994" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsView.mc" lineNum="37" pc="268442003" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsBackground.mc" lineNum="10" pc="268440775" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsBackground.mc" lineNum="14" pc="268440796" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsBackground.mc" lineNum="18" pc="268440819" symbol="setColor"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsBackground.mc" lineNum="22" pc="268440832" symbol="draw"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsBackground.mc" lineNum="23" pc="268440864" symbol="draw"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsApp.mc" lineNum="7" pc="268440879" symbol="initialize"/>
+<entry filename="C:\\Users\\kurt\\workspace\\git\\AltFields\\source\\AltFieldsApp.mc" lineNum="20" pc="268440906" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="5" pc="268441175" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="6" pc="268441184" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="7" pc="268441193" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="8" pc="268441202" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="9" pc="268441211" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268441220" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="11" pc="268441229" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="12" pc="268441238" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="13" pc="268441247" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="14" pc="268441256" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="15" pc="268441265" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="16" pc="268441274" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="17" pc="268441283" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="18" pc="268441292" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="19" pc="268441301" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="20" pc="268441310" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="21" pc="268441319" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="22" pc="268441328" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="23" pc="268441337" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="28" pc="268441090" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="29" pc="268441099" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="30" pc="268441108" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="31" pc="268441117" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="32" pc="268441126" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="33" pc="268441135" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="34" pc="268441144" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="35" pc="268441153" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="36" pc="268441162" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="45" pc="268440946" symbol="Main"/>
+<entry filename="Rez" lineNum="46" pc="268440971" symbol="Main"/>
+<entry filename="Rez" lineNum="47" pc="268440998" symbol="Main"/>
+<entry filename="Rez" lineNum="49" pc="268441014" symbol="Main"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388698" method="true" symbol="start"/>
@@ -208,6 +233,7 @@
 <entry field="true" id="8388937" symbol="day_of_week"/>
 <entry id="8388741" symbol="currentPace"/>
 <entry field="true" id="8388959" symbol="cadence"/>
+<entry field="true" id="20" symbol="AltIcon"/>
 <entry field="true" id="8388840" symbol="SPORT_TRAINING"/>
 <entry id="8389308" method="true" symbol="toRadians"/>
 <entry field="true" id="8389036" symbol="NUMBER_PICKER_TIME_OF_DAY"/>
@@ -221,13 +247,14 @@
 <entry field="true" id="8389671" symbol="screenWidth"/>
 <entry field="true" id="8389420" symbol="DEVICE_STATE_CLOSED"/>
 <entry id="8389736" symbol="borderWidth"/>
+<entry field="true" id="64" symbol="graphImg"/>
 <entry field="true" id="8389263" symbol="DEFAULT_DEVICE_TYPE"/>
 <entry field="true" id="8389004" symbol="KEY_UP_LEFT"/>
 <entry field="true" id="8389206" symbol="MSG_ID_LOW_PRIORITY_SEARCH_TIMEOUT"/>
 <entry id="8389242" symbol="dataHigh"/>
+<entry field="true" id="55" symbol="posRound"/>
 <entry field="true" id="8389396" symbol="UNIT_STATUTE"/>
 <entry id="8389180" method="true" symbol="drawPoint"/>
-<entry field="true" id="47" symbol="heartImg"/>
 <entry id="8389476" symbol="mDeviceNumber"/>
 <entry id="8389287" method="true" symbol="saveProperties"/>
 <entry id="8388987" method="true" symbol="vibrate"/>
@@ -240,6 +267,7 @@
 <entry id="8389306" symbol="lon"/>
 <entry field="true" id="8389232" symbol="CHANNEL_TYPE_RX_NOT_TX"/>
 <entry id="8388899" method="true" symbol="log"/>
+<entry id="8" object="true" symbol="MovingAverage"/>
 <entry id="8388686" method="true" symbol="testLocationDegree"/>
 <entry id="8389533" module="true" symbol="Toybox_PersistedLocations"/>
 <entry id="8389102" method="true" symbol="onNumberPicked"/>
@@ -262,6 +290,7 @@
 <entry id="8389596" symbol="Notification"/>
 <entry id="8389735" symbol="layout"/>
 <entry id="8388637" module="true" symbol="Communications"/>
+<entry field="true" id="70" symbol="AvgPace"/>
 <entry id="8389587" method="true" symbol="getErrorMessage"/>
 <entry id="8389494" method="true" symbol="setUserProfile"/>
 <entry field="true" id="8389528" symbol="batteryVoltage"/>
@@ -283,12 +312,14 @@
 <entry id="8389307" method="true" symbol="toDegrees"/>
 <entry field="true" id="8389557" symbol="KEY_PAGE"/>
 <entry id="8389694" symbol="dithering"/>
-<entry field="true" id="36" symbol="idx"/>
+<entry field="true" id="51" symbol="idx"/>
 <entry id="8388934" method="true" symbol="momentNative"/>
+<entry field="true" id="75" symbol="fld5Type"/>
 <entry id="8389177" method="true" symbol="clear"/>
 <entry id="8389184" method="true" symbol="drawLine"/>
 <entry field="true" id="8389222" symbol="MSG_CODE_EVENT_CHANNEL_CLOSED"/>
 <entry id="8389330" symbol="december"/>
+<entry field="true" id="35" symbol="graph"/>
 <entry id="8389318" symbol="semicircles"/>
 <entry id="8389642" symbol="title"/>
 <entry id="8389629" method="true" symbol="getValue"/>
@@ -315,6 +346,7 @@
 <entry field="true" id="8389221" symbol="MSG_CODE_EVENT_TRANSFER_TX_FAILED"/>
 <entry field="true" id="8389166" symbol="COLOR_DK_GREEN"/>
 <entry field="true" id="8389508" symbol="athleteSetting"/>
+<entry field="true" id="42" symbol="avgpace"/>
 <entry id="8389019" object="true" symbol="SwipeEvent"/>
 <entry field="true" id="8389411" symbol="BATT_STATUS_NEW"/>
 <entry id="8388931" symbol="getMonthHash"/>
@@ -327,9 +359,11 @@
 <entry id="8388662" method="true" symbol="testContinue"/>
 <entry id="8388957" method="true" symbol="enableSensorEvents"/>
 <entry field="true" id="8389416" symbol="BATT_STATUS_INVALID"/>
+<entry field="true" id="80" symbol="fld6Val"/>
 <entry field="true" id="8388812" symbol="INVALID_HTTP_METHOD_IN_REQUEST"/>
 <entry field="true" id="8389607" symbol="LAYOUT_VALIGN_TOP"/>
 <entry id="8389327" symbol="september"/>
+<entry field="true" id="31" symbol="pace"/>
 <entry field="true" id="8389385" symbol="FONT_NUMBER_MILD"/>
 <entry field="true" id="8389158" symbol="COLOR_LT_GRAY"/>
 <entry field="true" id="8388975" symbol="TONE_RESET"/>
@@ -343,8 +377,8 @@
 <entry id="8389235" object="true" symbol="GenericChannel"/>
 <entry id="8389121" method="true" symbol="findDrawableById"/>
 <entry id="8389748" method="true" symbol="onTimerStop"/>
-<entry id="22" method="true" symbol="TopLeftLayout"/>
 <entry id="8389600" symbol="getMaxEvents"/>
+<entry field="true" id="38" symbol="stridelen_sh"/>
 <entry id="8389356" symbol="&lt;fin&gt;"/>
 <entry id="8389759" symbol="radius"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
@@ -353,7 +387,7 @@
 <entry id="8389074" symbol="BEHAVIOR_ON_MENU"/>
 <entry field="true" id="8389089" symbol="MAX_SIZE"/>
 <entry id="8388645" module="true" symbol="Time"/>
-<entry id="8" object="true" symbol="HeartRateGraph"/>
+<entry id="9" object="true" symbol="HeartRateGraph"/>
 <entry id="8389336" symbol="friday"/>
 <entry field="true" id="8389157" symbol="COLOR_WHITE"/>
 <entry id="8389570" symbol="getTestObject"/>
@@ -379,7 +413,7 @@
 <entry field="true" id="8389588" symbol="HTTP_REQUEST_METHOD_GET"/>
 <entry field="true" id="8388979" symbol="TONE_DISTANCE_ALERT"/>
 <entry field="true" id="8389201" symbol="MSG_ID_SEARCH_TIMEOUT"/>
-<entry id="9" object="true" symbol="AltFieldsView"/>
+<entry id="10" object="true" symbol="AltFieldsView"/>
 <entry id="8389619" method="true" symbol="onSelect"/>
 <entry id="8389107" method="true" symbol="setBitmap"/>
 <entry field="true" id="8388861" symbol="SUB_SPORT_CYCLOCROSS"/>
@@ -391,19 +425,20 @@
 <entry id="8389340" symbol="years"/>
 <entry field="true" id="8389037" symbol="NUMBER_PICKER_WEIGHT"/>
 <entry field="true" id="8388846" symbol="SPORT_MOUNTAINEERING"/>
+<entry field="true" id="37" symbol="avgpace_sh"/>
 <entry id="8389645" symbol="nextArrow"/>
 <entry id="8389721" symbol="LAYOUT_MAX_VALUE"/>
 <entry field="true" id="8389207" symbol="MSG_ID_LIB_CONFIG"/>
 <entry id="8389565" method="true" symbol="encodeURL"/>
 <entry field="true" id="8389589" symbol="HTTP_REQUEST_METHOD_PUT"/>
 <entry id="8388770" module="true" symbol="Strings"/>
-<entry field="true" id="15" symbol="HeartIcon"/>
+<entry field="true" id="22" symbol="HeartIcon"/>
 <entry field="true" id="8389430" symbol="BIKE_POWER_SENSOR_TYPE_CRANK_TORQUE_FREQUENCY"/>
 <entry id="8388783" method="true" symbol="toString"/>
 <entry id="8389305" symbol="lat"/>
 <entry id="8388643" module="true" symbol="Sensor"/>
 <entry field="true" id="8388950" symbol="SENSOR_BIKESPEED"/>
-<entry field="true" id="27" symbol="vrunner_speed_test"/>
+<entry field="true" id="43" symbol="vrunner_speed_test"/>
 <entry field="true" id="8388834" symbol="SPORT_FITNESS_EQUIPMENT"/>
 <entry id="8389546" symbol="mHeight"/>
 <entry field="true" id="8388830" symbol="SPORT_GENERIC"/>
@@ -434,14 +469,15 @@
 <entry id="8388650" object="true" symbol="Dictionary"/>
 <entry id="8389365" symbol="&lt;por&gt;"/>
 <entry id="8389028" object="true" symbol="MenuInputDelegate"/>
+<entry field="true" id="77" symbol="fld5Txt"/>
 <entry id="8389075" symbol="BEHAVIOR_ON_BACK"/>
 <entry field="true" id="8388954" symbol="SENSOR_HEARTRATE"/>
-<entry id="24" method="true" symbol="BottomLeftLayout"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389757" method="true" symbol="getHeartRateZones"/>
 <entry id="8389586" symbol="TooManyEventsException"/>
 <entry id="8389275" method="true" symbol="getApp"/>
 <entry field="true" id="8389522" symbol="serial"/>
+<entry field="true" id="21" symbol="AltIconBlack"/>
 <entry field="true" id="8388736" symbol="currentLocation"/>
 <entry field="true" id="8389035" symbol="NUMBER_PICKER_TIME_MIN_SEC"/>
 <entry field="true" id="8389664" symbol="SCREEN_SHAPE_SEMI_ROUND"/>
@@ -456,6 +492,7 @@
 <entry field="true" id="8389216" symbol="MSG_CODE_EVENT_RX_SEARCH_TIMEOUT"/>
 <entry id="8388718" method="true" symbol="error"/>
 <entry id="8389284" method="true" symbol="deleteProperty"/>
+<entry field="true" id="54" symbol="posSemiRound"/>
 <entry field="true" id="8388723" symbol="timeZoneOffset"/>
 <entry field="true" id="8389225" symbol="MSG_CODE_CHANNEL_ID_NOT_SET"/>
 <entry id="8388613" module="true" symbol="Toybox_System"/>
@@ -474,7 +511,6 @@
 <entry field="true" id="8389033" symbol="NUMBER_PICKER_DISTANCE"/>
 <entry field="true" id="8389140" symbol="GENDER_MALE"/>
 <entry id="8388630" module="true" symbol="Toybox_Position"/>
-<entry id="21" method="true" symbol="MainLayout"/>
 <entry id="8389488" symbol="DEVICE_TYPE_WEIGHT_SCALE"/>
 <entry field="true" id="8389262" symbol="DEFAULT_DEVICE_NUMBER"/>
 <entry id="8388945" method="true" symbol="lessThan"/>
@@ -483,6 +519,7 @@
 <entry field="true" id="8388751" symbol="averageCadence"/>
 <entry field="true" id="8388876" symbol="SUB_SPORT_CARDIO_TRAINING"/>
 <entry id="8388794" method="true" symbol="values"/>
+<entry field="true" id="29" symbol="fifthField"/>
 <entry id="8389761" symbol="centerY"/>
 <entry id="8389760" symbol="centerX"/>
 <entry field="true" id="8389294" symbol="QUALITY_LAST_KNOWN"/>
@@ -491,7 +528,7 @@
 <entry field="true" id="8389270" symbol="messagePeriod"/>
 <entry id="8388705" method="true" symbol="callback"/>
 <entry id="8389234" object="true" symbol="DeviceConfig"/>
-<entry field="true" id="32" symbol="currentHR"/>
+<entry field="true" id="47" symbol="currentHR"/>
 <entry field="true" id="8389521" symbol="modelNumber"/>
 <entry id="8389646" symbol="previousArrow"/>
 <entry id="8389436" object="true" symbol="CalculatedWheelSpeed"/>
@@ -501,7 +538,7 @@
 <entry field="true" id="8389208" symbol="MSG_ID_PROXIMITY_SEARCH"/>
 <entry id="8388672" method="true" symbol="testLessThan"/>
 <entry id="8388681" method="true" symbol="testDecr"/>
-<entry field="true" id="44" symbol="heartRateGraph"/>
+<entry field="true" id="61" symbol="heartRateGraph"/>
 <entry id="8388769" module="true" symbol="Rez"/>
 <entry id="8389176" object="true" symbol="Dc"/>
 <entry field="true" id="8388850" symbol="SUB_SPORT_GENERIC"/>
@@ -518,11 +555,11 @@
 <entry id="8388924" module="true" symbol="Gregorian"/>
 <entry id="8388708" object="true" symbol="BehaviorDelegate"/>
 <entry field="true" id="8389471" symbol="leftTorqueEffectiveness"/>
-<entry id="8388782" method="true" symbol="size"/>
+<entry field="true" id="8388782" method="true" symbol="size"/>
 <entry id="8389319" symbol="january"/>
 <entry id="8389582" symbol="Events"/>
 <entry id="8389042" object="true" symbol="NumberPickerDelegate"/>
-<entry field="true" id="42" symbol="timeSub"/>
+<entry field="true" id="60" symbol="timeSub"/>
 <entry id="8389627" method="true" symbol="getBackgroundColor"/>
 <entry id="8389598" symbol="getEventIds"/>
 <entry id="8389236" object="true" symbol="Message"/>
@@ -539,6 +576,7 @@
 <entry field="true" id="8389291" symbol="GEO_DMS"/>
 <entry field="true" id="8389015" symbol="SWIPE_UP"/>
 <entry field="true" id="8388724" symbol="battery"/>
+<entry id="84" method="true" symbol="getFieldValue"/>
 <entry id="8389062" symbol="mInitialValue"/>
 <entry field="true" id="8389523" symbol="swRevisionMain"/>
 <entry id="8389341" symbol="days"/>
@@ -572,6 +610,7 @@
 <entry id="8388775" method="true" symbol="toNumber"/>
 <entry field="true" id="8389610" symbol="LAYOUT_VALIGN_START"/>
 <entry id="8389031" object="true" symbol="Confirmation"/>
+<entry field="true" id="30" symbol="traineffect_sh"/>
 <entry id="8389752" method="true" symbol="onTimerReset"/>
 <entry field="true" id="8388968" symbol="TONE_STOP"/>
 <entry field="true" id="8388990" symbol="KEY_POWER"/>
@@ -600,6 +639,7 @@
 <entry id="8389490" method="true" symbol="getBasicReading"/>
 <entry field="true" id="8389380" symbol="OBSCURE_TOP"/>
 <entry field="true" id="8388804" symbol="BLE_NO_DATA"/>
+<entry field="true" id="40" symbol="stridelen"/>
 <entry field="true" id="8389531" symbol="antfsSupport"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="8389515" method="true" symbol="getCalculatedWheelSpeed"/>
@@ -607,13 +647,14 @@
 <entry id="8388728" method="true" symbol="getActivityInfo"/>
 <entry id="8389320" symbol="february"/>
 <entry id="8388683" method="true" symbol="testLog"/>
+<entry field="true" id="76" symbol="fld6Type"/>
 <entry id="8389554" method="true" symbol="onKeyReleased"/>
 <entry field="true" id="8389562" symbol="KEY_CLOCK"/>
 <entry field="true" id="8389454" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_CNT"/>
 <entry id="8388790" method="true" symbol="hasKey"/>
 <entry id="8389283" method="true" symbol="setProperty"/>
 <entry id="8389758" method="true" symbol="getCurrentSport"/>
-<entry field="true" id="28" symbol="AppName"/>
+<entry field="true" id="36" symbol="AppName"/>
 <entry field="true" id="8389172" symbol="TEXT_JUSTIFY_RIGHT"/>
 <entry id="8389343" symbol="minutes"/>
 <entry id="8389254" method="true" symbol="getDeviceConfig"/>
@@ -622,6 +663,7 @@
 <entry field="true" id="8389455" symbol="WEIGHT_SCALE_STATUS_DISABLED"/>
 <entry id="8388935" method="true" symbol="duration"/>
 <entry field="true" id="8389543" symbol="phoneConnected"/>
+<entry field="true" id="73" symbol="TrainEffect"/>
 <entry id="8389397" object="true" symbol="DeviceSettings"/>
 <entry id="8388818" method="true" symbol="makeJsonRequestNative"/>
 <entry field="true" id="8389289" symbol="GEO_DEG"/>
@@ -641,7 +683,7 @@
 <entry field="true" id="8388795" method="true" symbol="length"/>
 <entry id="8388761" object="true" symbol="Double"/>
 <entry id="8389375" object="true" symbol="WatchFace"/>
-<entry field="true" id="35" symbol="minHr"/>
+<entry field="true" id="50" symbol="minHr"/>
 <entry field="true" id="8389594" symbol="headers"/>
 <entry field="true" id="8389143" symbol="weight"/>
 <entry id="8389621" symbol="mNextArrow"/>
@@ -667,7 +709,7 @@
 <entry field="true" id="8388991" symbol="KEY_LIGHT"/>
 <entry field="true" id="8389400" symbol="tonesOn"/>
 <entry field="true" id="8388952" symbol="SENSOR_BIKEPOWER"/>
-<entry field="true" id="20" symbol="Runner2Black"/>
+<entry field="true" id="27" symbol="Runner2Black"/>
 <entry field="true" id="8389267" symbol="DEFAULT_SEARCH_TIMEOUT_LOW"/>
 <entry id="8388623" module="true" symbol="Toybox_Sensor"/>
 <entry id="8389126" method="true" symbol="setLayout"/>
@@ -684,11 +726,12 @@
 <entry id="8389178" method="true" symbol="drawCircle"/>
 <entry field="true" id="8389203" symbol="MSG_ID_NETWORK_KEY"/>
 <entry field="true" id="8389605" symbol="accel"/>
-<entry field="true" id="39" symbol="vRunnerSpeed"/>
+<entry field="true" id="57" symbol="vRunnerSpeed"/>
 <entry field="true" id="8388810" symbol="INVALID_HTTP_HEADER_FIELDS_IN_REQUEST"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
 <entry id="8389655" method="true" symbol="stillAlive"/>
 <entry id="8389194" method="true" symbol="getFontHeight"/>
+<entry field="true" id="33" symbol="traineffect"/>
 <entry id="8389105" symbol="mBitmapData"/>
 <entry field="true" id="8388962" symbol="temperature"/>
 <entry id="8389352" symbol="&lt;ces&gt;"/>
@@ -704,13 +747,15 @@
 <entry id="8389078" method="true" symbol="onNextPage"/>
 <entry field="true" id="8389496" symbol="basalMetabolicRate"/>
 <entry field="true" id="8389475" symbol="rightPedalSmoothness"/>
-<entry field="true" id="31" symbol="heartRates"/>
+<entry field="true" id="68" symbol="HeartRate"/>
+<entry field="true" id="46" symbol="heartRates"/>
+<entry field="true" id="13" symbol="arr"/>
 <entry id="8388671" method="true" symbol="testShiftR"/>
 <entry field="true" id="8388964" symbol="pressure"/>
 <entry field="true" id="8389164" symbol="COLOR_YELLOW"/>
 <entry id="8388670" method="true" symbol="testShiftL"/>
 <entry field="true" id="8389672" symbol="screenHeight"/>
-<entry id="10" object="true" symbol="Background"/>
+<entry id="11" object="true" symbol="Background"/>
 <entry id="8388884" symbol="GeometryIterator"/>
 <entry id="8389188" method="true" symbol="fillRectangle"/>
 <entry field="true" id="8389426" symbol="BIKE_POWER_SENSOR_TYPE_NONE"/>
@@ -740,8 +785,9 @@
 <entry id="8389108" method="true" symbol="onResponse"/>
 <entry id="8389321" symbol="march"/>
 <entry field="true" id="8388976" symbol="TONE_LAP"/>
-<entry field="true" id="14" symbol="LauncherIcon"/>
+<entry field="true" id="19" symbol="LauncherIcon"/>
 <entry id="8389539" symbol="mInitialText"/>
+<entry field="true" id="39" symbol="sixthField"/>
 <entry field="true" id="8389387" symbol="FONT_NUMBER_HOT"/>
 <entry id="8389434" object="true" symbol="CalculatedTorque"/>
 <entry id="8389337" symbol="saturday"/>
@@ -752,6 +798,7 @@
 <entry id="8389371" symbol="&lt;cht&gt;"/>
 <entry id="8389073" symbol="BEHAVIOR_PREVIOUS_PAGE"/>
 <entry field="true" id="8389290" symbol="GEO_DM"/>
+<entry field="true" id="72" symbol="Calories"/>
 <entry id="8389260" method="true" symbol="sendBroadcast"/>
 <entry id="8389722" symbol="Layout"/>
 <entry field="true" id="8388730" symbol="startLocation"/>
@@ -763,7 +810,7 @@
 <entry field="true" id="8388853" symbol="SUB_SPORT_TRAIL"/>
 <entry id="8389683" method="true" symbol="onSettingsChanged"/>
 <entry id="8389286" method="true" symbol="loadProperties"/>
-<entry field="true" id="46" symbol="ghostImg"/>
+<entry field="true" id="63" symbol="ghostImg"/>
 <entry id="8389372" symbol="&lt;chs&gt;"/>
 <entry id="8388799" method="true" symbol="toUpper"/>
 <entry field="true" id="8389213" symbol="MSG_ID_ACKNOWLEDGED_DATA"/>
@@ -785,6 +832,7 @@
 <entry field="true" id="8388875" symbol="SUB_SPORT_INDOOR_SKIING"/>
 <entry field="true" id="8388786" method="true" symbol="method"/>
 <entry id="8388948" method="true" symbol="multiply"/>
+<entry field="true" id="79" symbol="fld6Txt"/>
 <entry id="8388615" module="true" symbol="Toybox_Lang"/>
 <entry id="8389086" symbol="mProgressValue"/>
 <entry id="8389492" method="true" symbol="getUserProfile"/>
@@ -816,11 +864,11 @@
 <entry id="8388829" method="true" symbol="onComplete"/>
 <entry id="8388691" object="true" symbol="TimerStop"/>
 <entry id="8388885" method="true" symbol="getGeometry"/>
+<entry field="true" id="67" symbol="Cadence"/>
 <entry id="8389335" symbol="thursday"/>
 <entry field="true" id="8389443" symbol="WEIGHT_SCALE_GENDER_MALE"/>
 <entry id="8388925" symbol="monthHash"/>
 <entry id="8389435" object="true" symbol="CalculatedWheelDistance"/>
-<entry field="true" id="43" symbol="avgPace"/>
 <entry id="8389708" symbol="mCount"/>
 <entry field="true" id="8389224" symbol="MSG_CODE_CHANNEL_IN_WRONG_STATE"/>
 <entry field="true" id="8389395" symbol="UNIT_METRIC"/>
@@ -831,6 +879,7 @@
 <entry field="true" id="8388845" symbol="SPORT_ROWING"/>
 <entry field="true" id="8388811" symbol="INVALID_HTTP_BODY_IN_REQUEST"/>
 <entry id="8389141" object="true" symbol="Profile"/>
+<entry field="true" id="66" symbol="Pace"/>
 <entry field="true" id="8388749" symbol="maxHeartRate"/>
 <entry field="true" id="8389272" symbol="searchTimeoutLowPriority"/>
 <entry field="true" id="8389065" symbol="locY"/>
@@ -840,7 +889,7 @@
 <entry field="true" id="8388750" symbol="currentCadence"/>
 <entry field="true" id="8388993" symbol="KEY_ZOUT"/>
 <entry field="true" id="8389525" symbol="hwRevision"/>
-<entry id="50" method="true" symbol="asTime"/>
+<entry id="83" method="true" symbol="asTime"/>
 <entry id="8388771" module="true" symbol="Drawables"/>
 <entry id="8389193" method="true" symbol="getTextWidthInPixels"/>
 <entry id="8388625" module="true" symbol="Toybox_WatchUi"/>
@@ -875,6 +924,7 @@
 <entry field="true" id="8388842" symbol="SPORT_CROSS_COUNTRY_SKIING"/>
 <entry field="true" id="8388725" symbol="usedMemory"/>
 <entry field="true" id="8389445" symbol="WEIGHT_SCALE_GENDER_CNT"/>
+<entry id="28" method="true" symbol="Main"/>
 <entry id="8389741" symbol="children"/>
 <entry field="true" id="8389529" symbol="userProfileSelected"/>
 <entry field="true" id="8388844" symbol="SPORT_SNOWBOARDING"/>
@@ -893,7 +943,7 @@
 <entry id="8389603" symbol="mWhen"/>
 <entry field="true" id="8389212" symbol="MSG_ID_BROADCAST_DATA"/>
 <entry id="8388612" module="true" symbol="Toybox_Test"/>
-<entry id="11" object="true" symbol="AltFieldsApp"/>
+<entry id="12" object="true" symbol="AltFieldsApp"/>
 <entry id="8388909" method="true" symbol="getInfo"/>
 <entry field="true" id="8389556" symbol="EXTENDED_KEYS"/>
 <entry id="8388617" module="true" symbol="Toybox_ActivityRecording"/>
@@ -901,14 +951,13 @@
 <entry id="8389304" method="true" symbol="testInfoString"/>
 <entry field="true" id="8389591" symbol="HTTP_REQUEST_METHOD_DELETE"/>
 <entry id="8389747" method="true" symbol="onTimerStart"/>
-<entry field="true" id="33" symbol="acc"/>
+<entry field="true" id="48" symbol="acc"/>
 <entry id="8389288" method="true" symbol="validateProperty"/>
 <entry id="8389309" method="true" symbol="toGeoString"/>
 <entry id="8388901" method="true" symbol="rand"/>
 <entry id="8389690" method="true" symbol="getFontDescent"/>
 <entry id="8389383" method="true" symbol="getObscurityFlags"/>
 <entry id="8389706" method="true" symbol="getMax"/>
-<entry id="23" method="true" symbol="TopRightLayout"/>
 <entry id="8388774" method="true" symbol="abs"/>
 <entry id="8389469" method="true" symbol="getDownloadProgress"/>
 <entry id="8389261" symbol="mHiddenData"/>
@@ -916,7 +965,7 @@
 <entry id="8389032" object="true" symbol="ConfirmationDelegate"/>
 <entry id="8388985" method="true" symbol="playTone"/>
 <entry field="true" id="8388836" symbol="SPORT_BASKETBALL"/>
-<entry id="37" method="true" symbol="store"/>
+<entry id="52" method="true" symbol="store"/>
 <entry field="true" id="8389171" symbol="COLOR_TRANSPARENT"/>
 <entry field="true" id="8388738" symbol="currentSpeed"/>
 <entry field="true" id="8389520" symbol="manufacturerId"/>
@@ -974,10 +1023,10 @@
 <entry id="8388947" method="true" symbol="value"/>
 <entry field="true" id="8388930" symbol="SECONDS_PER_MINUTE"/>
 <entry id="8388763" object="true" symbol="String"/>
-<entry id="49" method="true" symbol="getImage"/>
+<entry id="82" method="true" symbol="getImage"/>
 <entry field="true" id="8389524" symbol="swRevisionSupplemental"/>
 <entry id="8388905" method="true" symbol="tan"/>
-<entry field="true" id="29" symbol="HRMAX"/>
+<entry field="true" id="44" symbol="HRMAX"/>
 <entry field="true" id="8388808" symbol="BLE_UNKNOWN_SEND_ERROR"/>
 <entry field="true" id="8389271" symbol="radioFrequency"/>
 <entry field="true" id="8388958" symbol="speed"/>
@@ -990,13 +1039,13 @@
 <entry id="8388819" method="true" symbol="makeImageRequest"/>
 <entry field="true" id="8389457" symbol="WEIGHT_SCALE_STATUS_SEARCH_TIMEOUT"/>
 <entry field="true" id="8388801" symbol="BLE_ERROR"/>
-<entry field="true" id="40" symbol="ghost"/>
+<entry field="true" id="58" symbol="ghost"/>
 <entry field="true" id="8389608" symbol="LAYOUT_VALIGN_BOTTOM"/>
 <entry id="8389538" object="true" symbol="TextPickerDelegate"/>
 <entry field="true" id="8388809" symbol="BLE_CONNECTION_UNAVAILABLE"/>
 <entry field="true" id="8389382" symbol="OBSCURE_BOTTOM"/>
 <entry field="true" id="8389273" symbol="searchTimeoutHighPriority"/>
-<entry field="true" id="16" symbol="Runner"/>
+<entry field="true" id="23" symbol="Runner"/>
 <entry field="true" id="8389067" symbol="height"/>
 <entry field="true" id="8389237" symbol="channelType"/>
 <entry id="8388692" object="true" symbol="TimerStart"/>
@@ -1007,6 +1056,7 @@
 <entry field="true" id="8388805" symbol="BLE_REQUEST_CANCELLED"/>
 <entry field="true" id="8389422" symbol="DEVICE_STATE_TRACKING"/>
 <entry id="8389338" symbol="minute"/>
+<entry id="16" method="true" symbol="push"/>
 <entry field="true" id="8388814" symbol="INVALID_HTTP_BODY_IN_NETWORK_RESPONSE"/>
 <entry field="true" id="8389611" symbol="LAYOUT_HALIGN_LEFT"/>
 <entry id="8388787" method="true" symbol="equals"/>
@@ -1014,6 +1064,7 @@
 <entry field="true" id="8388651" symbol="session"/>
 <entry id="8388897" method="true" symbol="atan"/>
 <entry id="8389109" method="true" symbol="onMenuItem"/>
+<entry field="true" id="69" symbol="Altitude"/>
 <entry id="8389243" symbol="flag"/>
 <entry id="8389182" method="true" symbol="drawRoundedRectangle"/>
 <entry id="8388677" method="true" symbol="testTypeConversion"/>
@@ -1025,7 +1076,7 @@
 <entry id="8389696" symbol="&lt;kor&gt;"/>
 <entry id="8388706" method="true" symbol="insertString"/>
 <entry id="8389129" symbol="mJustification"/>
-<entry field="true" id="41" symbol="time"/>
+<entry field="true" id="59" symbol="time"/>
 <entry id="8389750" method="true" symbol="onTimerResume"/>
 <entry id="8388714" method="true" symbol="getClockTime"/>
 <entry id="8389358" symbol="&lt;deu&gt;"/>
@@ -1048,6 +1099,7 @@
 <entry field="true" id="8389292" symbol="GEO_MGRS"/>
 <entry id="8389370" symbol="&lt;swe&gt;"/>
 <entry id="8388657" method="true" symbol="testInheritanceName"/>
+<entry field="true" id="14" symbol="ptr"/>
 <entry id="8388765" object="true" symbol="Symbol"/>
 <entry field="true" id="8389238" symbol="network"/>
 <entry id="8389014" object="true" symbol="ClickEvent"/>
@@ -1062,17 +1114,17 @@
 <entry field="true" id="8388929" symbol="SECONDS_PER_HOUR"/>
 <entry field="true" id="8388851" symbol="SUB_SPORT_TREADMILL"/>
 <entry field="true" id="8389428" symbol="BIKE_POWER_SENSOR_TYPE_WHEEL_TORQUE"/>
-<entry field="true" id="19" symbol="RunnerBlack"/>
+<entry field="true" id="26" symbol="RunnerBlack"/>
 <entry id="8388618" module="true" symbol="Toybox_Math"/>
 <entry field="true" id="8389009" symbol="ANIM_TYPE_EASE_IN_OUT"/>
-<entry id="38" method="true" symbol="recalcMaxMin"/>
+<entry id="53" method="true" symbol="recalcMaxMin"/>
 <entry field="true" id="8389431" symbol="BIKE_POWER_SENSOR_TYPE_CNT"/>
 <entry field="true" id="8388870" symbol="SUB_SPORT_STRENGTH_TRAINING"/>
 <entry field="true" id="8388938" symbol="month"/>
 <entry field="true" id="8388966" symbol="TONE_KEY"/>
 <entry field="true" id="8388911" symbol="distance"/>
 <entry field="true" id="8389592" symbol="REQUEST_CONTENT_TYPE_URL_ENCODED"/>
-<entry id="13" module="true" symbol="Layouts"/>
+<entry id="18" module="true" symbol="Layouts"/>
 <entry field="true" id="8388841" symbol="SPORT_WALKING"/>
 <entry field="true" id="8389151" symbol="birthYear"/>
 <entry field="true" id="8389666" symbol="BUTTON_INPUT_SELECT"/>
@@ -1088,6 +1140,7 @@
 <entry id="8388642" module="true" symbol="Position"/>
 <entry field="true" id="8389379" symbol="OBSCURE_LEFT"/>
 <entry id="8389548" symbol="&lt;tha&gt;"/>
+<entry field="true" id="41" symbol="prompt"/>
 <entry id="8389079" method="true" symbol="onPreviousPage"/>
 <entry id="8389363" symbol="&lt;nob&gt;"/>
 <entry field="true" id="8389402" symbol="distanceUnits"/>
@@ -1095,7 +1148,6 @@
 <entry id="8388785" symbol="mHigh"/>
 <entry id="8388693" method="true" symbol="testUserProfile"/>
 <entry field="true" id="8389156" symbol="FONT_LARGE"/>
-<entry id="25" method="true" symbol="BottomRightLayout"/>
 <entry id="8389585" object="true" symbol="UnexpectedTypeException"/>
 <entry field="true" id="8388983" symbol="TONE_LOW_BATTERY"/>
 <entry id="8388932" symbol="getDayHash"/>
@@ -1106,6 +1158,7 @@
 <entry id="8389253" symbol="setPayloadWithOffset"/>
 <entry id="8389093" symbol="mTitle"/>
 <entry id="8389051" method="true" symbol="switchToView"/>
+<entry field="true" id="56" symbol="pos"/>
 <entry id="8389418" object="true" symbol="CommonData"/>
 <entry field="true" id="8389390" symbol="arrayCount"/>
 <entry field="true" id="8389274" symbol="searchThreshold"/>
@@ -1120,7 +1173,7 @@
 <entry field="true" id="8388843" symbol="SPORT_ALPINE_SKIING"/>
 <entry field="true" id="8389551" symbol="PRESS_TYPE_UP"/>
 <entry id="8389094" method="true" symbol="setTitle"/>
-<entry field="true" id="18" symbol="HeartIconBlack"/>
+<entry field="true" id="25" symbol="HeartIconBlack"/>
 <entry id="8388910" method="true" symbol="getHistory"/>
 <entry field="true" id="8388835" symbol="SPORT_SWIMMING"/>
 <entry field="true" id="8388989" symbol="dutyCycle"/>
@@ -1146,10 +1199,12 @@
 <entry id="8389191" method="true" symbol="getTextDimensions"/>
 <entry field="true" id="8388740" symbol="maxSpeed"/>
 <entry id="8388616" module="true" symbol="Toybox_Communications"/>
+<entry field="true" id="78" symbol="fld5Val"/>
 <entry field="true" id="8389210" symbol="MSG_ID_OPEN_CHANNEL"/>
 <entry id="8388943" method="true" symbol="subtract"/>
 <entry id="8389345" symbol="rezId"/>
 <entry id="8388678" method="true" symbol="testBooleanOperations"/>
+<entry id="81" method="true" symbol="getFieldLabel"/>
 <entry id="8389737" symbol="borderColor"/>
 <entry field="true" id="8389196" symbol="MSG_ID_RF_EVENT"/>
 <entry id="8389749" method="true" symbol="onTimerPause"/>
@@ -1206,12 +1261,13 @@
 <entry field="true" id="8389205" symbol="MSG_ID_CHANNEL_TRANSMIT_POWER"/>
 <entry field="true" id="8389155" symbol="FONT_MEDIUM"/>
 <entry field="true" id="8389606" symbol="mag"/>
-<entry field="true" id="45" symbol="runnerImg"/>
-<entry field="true" id="34" symbol="maxHr"/>
+<entry field="true" id="62" symbol="runnerImg"/>
+<entry field="true" id="34" symbol="movingAvg"/>
+<entry field="true" id="49" symbol="maxHr"/>
 <entry id="8388658" method="true" symbol="testSubstringAndFind"/>
 <entry field="true" id="8389484" symbol="identificationString"/>
 <entry field="true" id="8389772" symbol="SWIM_STROKE_IM"/>
-<entry field="true" id="26" symbol="graph_scale"/>
+<entry field="true" id="32" symbol="graph_scale"/>
 <entry id="8389092" symbol="mSize"/>
 <entry field="true" id="8388735" symbol="currentLocationAccuracy"/>
 <entry field="true" id="8388807" symbol="BLE_REQUEST_TOO_LARGE"/>
@@ -1220,13 +1276,14 @@
 <entry field="true" id="8388919" symbol="FORMAT_LONG"/>
 <entry id="8388941" symbol="mDateTime"/>
 <entry id="8388895" method="true" symbol="acos"/>
-<entry field="true" id="17" symbol="Runner2"/>
-<entry field="true" id="30" symbol="SCALE"/>
+<entry field="true" id="24" symbol="Runner2"/>
+<entry field="true" id="45" symbol="SCALE"/>
 <entry field="true" id="8389217" symbol="MSG_CODE_EVENT_RX_FAIL"/>
-<entry id="12" module="true" symbol="Menus"/>
+<entry id="17" module="true" symbol="Menus"/>
 <entry id="8388682" method="true" symbol="testNaN"/>
 <entry field="true" id="8389550" symbol="PRESS_TYPE_DOWN"/>
 <entry field="true" id="8388960" symbol="heartRate"/>
+<entry id="15" method="true" symbol="init"/>
 <entry id="8389744" symbol="mFillHorizontalInDraw"/>
 <entry id="8388619" module="true" symbol="Toybox_ActivityMonitor"/>
 <entry id="8389085" symbol="mDisplayString"/>
@@ -1274,6 +1331,7 @@
 <entry field="true" id="8388839" symbol="SPORT_AMERICAN_FOOTBALL"/>
 <entry field="true" id="8389003" symbol="KEY_UP"/>
 <entry field="true" id="8388864" symbol="SUB_SPORT_INDOOR_ROWING"/>
+<entry field="true" id="71" symbol="StrideLen"/>
 <entry field="true" id="8388857" symbol="SUB_SPORT_ROAD"/>
 <entry id="8389599" symbol="getEvent"/>
 <entry field="true" id="8388994" symbol="KEY_ENTER"/>
@@ -1314,7 +1372,7 @@
 <entry id="8389763" symbol="b"/>
 <entry id="8389762" symbol="a"/>
 <entry field="true" id="8389639" symbol="networkKey64Bit"/>
-<entry field="true" id="48" symbol="blackBG"/>
+<entry field="true" id="65" symbol="blackBG"/>
 <entry id="8389730" symbol="Y"/>
 <entry id="8388633" module="true" symbol="ActivityMonitor"/>
 <entry id="8389729" symbol="X"/>
@@ -1340,6 +1398,7 @@
 <entry field="true" id="8389175" symbol="TEXT_JUSTIFY_VCENTER"/>
 <entry field="true" id="8389429" symbol="BIKE_POWER_SENSOR_TYPE_CRANK_TORQUE"/>
 <entry field="true" id="8389202" symbol="MSG_ID_CHANNEL_RF_FREQUENCY"/>
+<entry field="true" id="74" symbol="fld1Type"/>
 <entry id="8389656" method="true" symbol="weak"/>
 <entry id="8388635" module="true" symbol="Application"/>
 <entry field="true" id="8389150" symbol="activityClass"/>
@@ -1357,66 +1416,55 @@
 <entry field="true" id="8389044" symbol="SLIDE_IMMEDIATE"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435518" name="i" stackId="2" startPc="268435489"/>
-<entry endPc="268435849" name="v" stackId="2" startPc="268435768"/>
-<entry endPc="268435862" name="i" stackId="1" startPc="268435768"/>
-<entry endPc="268436092" name="barHeight" stackId="7" startPc="268435979"/>
-<entry endPc="268436092" name="ptr" stackId="6" startPc="268435979"/>
-<entry endPc="268436105" name="i" stackId="5" startPc="268435979"/>
-<entry endPc="268436223" name="h" stackId="3" startPc="268435884"/>
-<entry endPc="268436223" name="maxHeight" stackId="4" startPc="268435884"/>
-<entry endPc="268436871" name="dist" stackId="3" startPc="268436833"/>
-<entry endPc="268436874" name="secs" stackId="2" startPc="268436679"/>
-<entry endPc="268436999" name="pace" stackId="4" startPc="268436953"/>
-<entry endPc="268438969" name="width" stackId="2" startPc="268437115"/>
-<entry endPc="268438969" name="h1_3" stackId="7" startPc="268437115"/>
-<entry endPc="268438969" name="w1_4" stackId="6" startPc="268437115"/>
-<entry endPc="268438969" name="color" stackId="10" startPc="268437115"/>
-<entry endPc="268438969" name="w1_2" stackId="5" startPc="268437115"/>
-<entry endPc="268438969" name="h2_3" stackId="8" startPc="268437115"/>
-<entry endPc="268438969" name="pix" stackId="13" startPc="268437115"/>
-<entry endPc="268438969" name="batCol" stackId="15" startPc="268437115"/>
-<entry endPc="268438969" name="batInd" stackId="14" startPc="268437115"/>
-<entry endPc="268438969" name="w3_4" stackId="4" startPc="268437115"/>
-<entry endPc="268438969" name="bgColor" stackId="9" startPc="268437115"/>
-<entry endPc="268438969" name="color2" stackId="11" startPc="268437115"/>
-<entry endPc="268438969" name="height" stackId="3" startPc="268437115"/>
-<entry endPc="268438969" name="absghost" stackId="12" startPc="268437115"/>
-<entry endPc="268439013" name="dictionary" stackId="1" startPc="268438972"/>
-<entry endPc="268439990" name="rez_cmp_local_label_label2" stackId="10" startPc="268439143"/>
-<entry endPc="268439990" name="rez_cmp_local_label_value_fontHeight" stackId="8" startPc="268439143"/>
-<entry endPc="268439990" name="rez_cmp_local_label_value_font" stackId="6" startPc="268439143"/>
-<entry endPc="268439990" name="rez_cmp_local_label_label_font" stackId="3" startPc="268439143"/>
-<entry endPc="268439990" name="rez_cmp_local_label_value2" stackId="12" startPc="268439143"/>
-<entry endPc="268439990" name="rez_cmp_local_label_label_fontHeight" stackId="5" startPc="268439143"/>
-<entry endPc="268439990" name="rez_cmp_local_custom_drawable_1PXDYGG9NPBT0YTBPJC5" stackId="2" startPc="268439143"/>
-<entry endPc="268439990" name="rez_cmp_local_label_value2_font" stackId="11" startPc="268439143"/>
-<entry endPc="268439990" name="rez_cmp_local_label_label" stackId="4" startPc="268439143"/>
-<entry endPc="268439990" name="rez_cmp_local_label_value" stackId="7" startPc="268439143"/>
-<entry endPc="268439990" name="rez_cmp_local_label_label2_font" stackId="9" startPc="268439143"/>
-<entry endPc="268440372" name="rez_cmp_local_label_label_font" stackId="3" startPc="268439993"/>
-<entry endPc="268440372" name="rez_cmp_local_label_value_font" stackId="5" startPc="268439993"/>
-<entry endPc="268440372" name="rez_cmp_local_custom_drawable_27ZAWJQZ642LUEGQCS89" stackId="2" startPc="268439993"/>
-<entry endPc="268440372" name="rez_cmp_local_label_label" stackId="4" startPc="268439993"/>
-<entry endPc="268440372" name="rez_cmp_local_label_value" stackId="6" startPc="268439993"/>
-<entry endPc="268440754" name="rez_cmp_local_label_label_font" stackId="3" startPc="268440375"/>
-<entry endPc="268440754" name="rez_cmp_local_label_value_font" stackId="5" startPc="268440375"/>
-<entry endPc="268440754" name="rez_cmp_local_custom_drawable_JQUIOQP5QQHQ5VJAAC4A" stackId="2" startPc="268440375"/>
-<entry endPc="268440754" name="rez_cmp_local_label_label" stackId="4" startPc="268440375"/>
-<entry endPc="268440754" name="rez_cmp_local_label_value" stackId="6" startPc="268440375"/>
-<entry endPc="268441136" name="rez_cmp_local_label_label_font" stackId="3" startPc="268440757"/>
-<entry endPc="268441136" name="rez_cmp_local_label_value_font" stackId="5" startPc="268440757"/>
-<entry endPc="268441136" name="rez_cmp_local_custom_drawable_2QGO0QKV8SXH03V7XYJW" stackId="2" startPc="268440757"/>
-<entry endPc="268441136" name="rez_cmp_local_label_label" stackId="4" startPc="268440757"/>
-<entry endPc="268441136" name="rez_cmp_local_label_value" stackId="6" startPc="268440757"/>
-<entry endPc="268441518" name="rez_cmp_local_label_label_font" stackId="3" startPc="268441139"/>
-<entry endPc="268441518" name="rez_cmp_local_custom_drawable_PD92AVL5P2QCVT6OL1J7" stackId="2" startPc="268441139"/>
-<entry endPc="268441518" name="rez_cmp_local_label_value_font" stackId="5" startPc="268441139"/>
-<entry endPc="268441518" name="rez_cmp_local_label_label" stackId="4" startPc="268441139"/>
-<entry endPc="268441518" name="rez_cmp_local_label_value" stackId="6" startPc="268441139"/>
+<entry endPc="268435535" name="i" stackId="2" startPc="268435506"/>
+<entry endPc="268435715" name="i" stackId="2" startPc="268435686"/>
+<entry endPc="268436046" name="v" stackId="2" startPc="268435965"/>
+<entry endPc="268436059" name="i" stackId="1" startPc="268435965"/>
+<entry endPc="268436156" name="t" stackId="4" startPc="268436108"/>
+<entry endPc="268436159" name="maxHeight" stackId="3" startPc="268435909"/>
+<entry endPc="268436398" name="barHeight" stackId="9" startPc="268436273"/>
+<entry endPc="268436398" name="ptr" stackId="8" startPc="268436273"/>
+<entry endPc="268436411" name="i" stackId="7" startPc="268436273"/>
+<entry endPc="268436535" name="h" stackId="4" startPc="268436162"/>
+<entry endPc="268436535" name="maxHeight" stackId="6" startPc="268436162"/>
+<entry endPc="268436535" name="vAdj" stackId="5" startPc="268436162"/>
+<entry endPc="268437131" name="movingAvg" stackId="2" startPc="268436538"/>
+<entry endPc="268437131" name="app" stackId="1" startPc="268436538"/>
+<entry endPc="268437369" name="res" stackId="2" startPc="268437134"/>
+<entry endPc="268437798" name="dist" stackId="3" startPc="268437760"/>
+<entry endPc="268437801" name="secs" stackId="2" startPc="268437606"/>
+<entry endPc="268438117" name="pace" stackId="3" startPc="268438078"/>
+<entry endPc="268438210" name="p" stackId="4" startPc="268438143"/>
+<entry endPc="268438374" name="p" stackId="5" startPc="268438288"/>
+<entry endPc="268440772" name="width" stackId="2" startPc="268438452"/>
+<entry endPc="268440772" name="h1_3" stackId="6" startPc="268438452"/>
+<entry endPc="268440772" name="color" stackId="9" startPc="268438452"/>
+<entry endPc="268440772" name="w1_2" stackId="5" startPc="268438452"/>
+<entry endPc="268440772" name="h2_3" stackId="7" startPc="268438452"/>
+<entry endPc="268440772" name="pix" stackId="12" startPc="268438452"/>
+<entry endPc="268440772" name="batCol" stackId="14" startPc="268438452"/>
+<entry endPc="268440772" name="batInd" stackId="13" startPc="268438452"/>
+<entry endPc="268440772" name="bgColor" stackId="8" startPc="268438452"/>
+<entry endPc="268440772" name="color2" stackId="10" startPc="268438452"/>
+<entry endPc="268440772" name="isRound" stackId="4" startPc="268438452"/>
+<entry endPc="268440772" name="height" stackId="3" startPc="268438452"/>
+<entry endPc="268440772" name="absghost" stackId="11" startPc="268438452"/>
+<entry endPc="268440816" name="dictionary" stackId="1" startPc="268440775"/>
+<entry endPc="268441031" name="rez_cmp_local_custom_drawable_949FYL9PH0TQKKJHBJPQ" stackId="2" startPc="268440946"/>
 </localVars>
 <annotations/>
 <functions>
+<functionEntry name="init" parent="MovingAverage">
+<param id="s"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="push" parent="MovingAverage">
+<param id="value"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="get" parent="MovingAverage">
+<documentation/>
+</functionEntry>
 <functionEntry name="initialize" parent="HeartRateGraph">
 <param id="scale"/>
 <documentation/>
@@ -1431,9 +1479,18 @@
 <functionEntry name="draw" parent="HeartRateGraph">
 <param id="dc"/>
 <param id="color"/>
+<param id="gColor"/>
 <documentation/>
 </functionEntry>
 <functionEntry name="initialize" parent="AltFieldsView">
+<documentation/>
+</functionEntry>
+<functionEntry name="getFieldLabel" parent="AltFieldsView">
+<param id="type"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onLayout" parent="AltFieldsView">
+<param id="dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry name="getImage" parent="AltFieldsView">
@@ -1448,6 +1505,11 @@
 <functionEntry name="compute" parent="AltFieldsView">
 <param id="info"/>
 <documentation><![CDATA[<div class="description"> The given info object contains all the current workout<br/> information. Calculate a value and save it locally in this method.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="getFieldValue" parent="AltFieldsView">
+<param id="type"/>
+<param id="info"/>
+<documentation/>
 </functionEntry>
 <functionEntry name="onUpdate" parent="AltFieldsView">
 <param id="dc"/>
@@ -1476,23 +1538,7 @@
 <functionEntry name="getInitialView" parent="AltFieldsApp">
 <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="MainLayout" parent="Layouts">
-<param id="dc"/>
-<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry name="TopLeftLayout" parent="Layouts">
-<param id="dc"/>
-<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry name="TopRightLayout" parent="Layouts">
-<param id="dc"/>
-<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry name="BottomLeftLayout" parent="Layouts">
-<param id="dc"/>
-<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry name="BottomRightLayout" parent="Layouts">
+<functionEntry name="Main" parent="Layouts">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
 </functionEntry>

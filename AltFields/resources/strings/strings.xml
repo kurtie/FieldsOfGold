@@ -1,6 +1,21 @@
 <strings>
-    <string id="AppName">AltFields</string>
-
+    <string id="AppName">Fields of Gold</string>
     <string id="vrunner_speed_test">Virtual runner speed (seconds per km)</string>
     <string id="graph_scale">Graph scale (seconds per bar)</string>
+    <string id="prompt">Prompt</string>
+    <string id="graph">Graph</string>
+    <string id="fifthField">Sixth Field</string>
+    <string id="sixthField">Sixth Field</string>
+    <string id="pace">Pace</string>
+    <string id="cadence">Cadence</string>
+    <string id="calories">Calories</string>
+    <string id="heartRate">Heart Rate</string>
+    <string id="altitude">Altitude</string>
+    <string id="avgpace">Average Pace</string>
+    <string id="avgpace_sh">Avg Pace</string>
+    <string id="stridelen">Stride length</string>
+    <string id="stridelen_sh">Stride len</string>
+    <string id="movingAvg">Seconds for moving average</string>
+    <string id="traineffect">Training effect</string>
+    <string id="traineffect_sh">Train eff</string>
 </strings>
