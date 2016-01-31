@@ -1,6 +1,6 @@
 <strings>
     <string id="AppName">Fields of Gold</string>
-    <string id="vrunner_speed_test">Virtual runner speed (seconds per km)</string>
+    <string id="vrunner_speed">Virtual runner speed (seconds per km)</string>
     <string id="graph_scale">Graph scale (seconds per bar)</string>
     <string id="prompt">Prompt</string>
     <string id="graph">Graph</string>
@@ -18,4 +18,31 @@
     <string id="movingAvg">Seconds for moving average</string>
     <string id="traineffect">Training effect</string>
     <string id="traineffect_sh">Train eff</string>
+    <string id="energy">Energy expenditure</string>
+    <string id="energy_sh">Energy</string>
+    <string id="pos_semiround">2C057000423C9B3C447893788D11203C489C84</string>
+    <!--
+		44 ,5,
+		112, -1,
+		66, 60,
+		155, 60,
+		68, 120,
+		147, 120,
+		141, 17, 32,
+		60, 72, 
+		156, 132
+	-->
+	<string id="pos_round">360D730D424C9D4C488B938B8F202F3D539E92</string>
+	<!--
+		54 ,13,
+		115, 13,
+		66, 76,
+		157, 76,
+		72, 139,
+		147, 139,
+		143, 32, 47,
+		61, 83, 
+		158, 146
+	-->	
+	
 </strings>

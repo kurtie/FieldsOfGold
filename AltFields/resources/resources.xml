@@ -10,7 +10,7 @@
     </properties>
 
 	<settings>
-    	<setting propertyKey="@Properties.VRUNNER_SPEED" title="@Strings.vrunner_speed_test">
+    	<setting propertyKey="@Properties.VRUNNER_SPEED" title="@Strings.vrunner_speed">
         	<settingConfig type="numeric" required="true" />
     	</setting>
     	
@@ -32,6 +32,7 @@
             	<listEntry value="1">@Strings.cadence</listEntry>
             	<listEntry value="5">@Strings.stridelen</listEntry>
             	<listEntry value="6">@Strings.calories</listEntry>
+            	<listEntry value="8">@Strings.energy</listEntry>
             	<listEntry value="7">@Strings.traineffect</listEntry>
         	</settingConfig>
     	</setting>
@@ -43,6 +44,7 @@
             	<listEntry value="1">@Strings.cadence</listEntry>
             	<listEntry value="5">@Strings.stridelen</listEntry>
             	<listEntry value="6">@Strings.calories</listEntry>
+            	<listEntry value="8">@Strings.energy</listEntry>
             	<listEntry value="7">@Strings.traineffect</listEntry>
         	</settingConfig>
     	</setting>

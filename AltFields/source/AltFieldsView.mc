@@ -3,42 +3,20 @@ using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 
 class AltFieldsView extends Ui.DataField {
-	var posSemiRound= [
-		44 ,5,
-		112, -1,
-		66, 60,
-		155, 60,
-		68, 120,
-		147, 120,
-		141, 17, 32,
-		60, 72, 
-		156, 132
-	]; 
-	var posRound= [
-		54 ,13,
-		115, 13,
-		66, 76,
-		157, 76,
-		72, 139,
-		147, 139,
-		143, 32, 47,
-		61, 83, 
-		158, 146
-	];
-	var pace= new MovingAverage();
-	var pos= posSemiRound;
+	hidden var pace= new MovingAverage();
+	hidden var pos= new[19];
 	
-	var vRunnerSpeed= 310;
-	var ghost= 0;
-	var time= "00:00";
-	var timeSub= null;
-	var distance= 0;
-	var battery= 0;
-	var heartRateGraph= new HeartRateGraph();
-	var runnerImg;
-	var ghostImg;
-	var graphImg;
-	var blackBG;
+	hidden var vRunnerSpeed= 310;
+	hidden var ghost= 0;
+	hidden var time= "00:00";
+	hidden var timeSub= null;
+	hidden var distance= 0;
+	hidden var battery= 0;
+	hidden var heartRateGraph= new HeartRateGraph();
+	hidden var runnerImg;
+	hidden var ghostImg;
+	hidden var graphImg;
+	hidden var blackBG;
 	enum {
 		Pace,
 		Cadence,
@@ -47,7 +25,8 @@ class AltFieldsView extends Ui.DataField {
 		AvgPace,
 		StrideLen,
 		Calories,
-		TrainEffect
+		TrainEffect,
+		Energy
 	}
 	var fld1Type;
 	var fld5Type;
@@ -94,14 +73,21 @@ class AltFieldsView extends Ui.DataField {
     	} else
     	if (type == TrainEffect) {
     		res= Rez.Strings.traineffect_sh;
+    	} else
+    	if (type == Energy) {
+    		res= Rez.Strings.energy_sh;
     	}
     	return Ui.loadResource(res);
     }
     
-    function onLayout(dc) {    
-        View.setLayout(Rez.Layouts.Main(dc));
-        View.findDrawableById("Background").setColor(getBackgroundColor());
-        pos= dc.getHeight() > 180 ? posRound : posSemiRound;
+    function onLayout(dc) {   
+        //pos= dc.getHeight() > 180 ? posRound : posSemiRound;
+		var ps= dc.getHeight() > 180 ? Rez.Strings.pos_round : Rez.Strings.pos_semiround;
+		ps.toNumber();		// This is needed for the widget to work (at least on the simulator)
+		var p= Ui.loadResource(ps);
+		for (var i=0; i<38; i+=2) {
+			pos[i >> 1]= ("0x"+p.substring(i, i+2)).toNumber();
+		}
     }
     
     
@@ -152,20 +138,23 @@ class AltFieldsView extends Ui.DataField {
 		}
     	if (type == Pace) {
     		var p= pace.get();
-    		return p<= 0 ? "---" : asTime( (1000 / p).toNumber() );
+    		return p<= 0.5 ? "---" : asTime( (1000 / p).toNumber() );
     	}
     	if (type == Cadence) {
     		return info.currentCadence == null ? "0" : info.currentCadence.format("%d");
     	}
     	if (type == StrideLen) {
     		var p= pace.get();
-    		return p<=0 || info.currentCadence == null ? "---" : (p * 6000 / info.currentCadence).format("%d");
+    		return p<=0.5 || info.currentCadence == null ? "---" : (p * 6000 / info.currentCadence).format("%d");
     	}
     	if (type == Calories) {
-    		return info.calories;
+    		return info.calories == null ? "---" : info.calories;
     	}
     	if (type == TrainEffect) {
-    		return info.trainingEffect.format("%.2f");
+    		return info.trainingEffect == null ? "---" : info.trainingEffect.format("%.2f");
+    	}
+    	if (type == Energy) {
+    		return info.energyExpenditure == null ? "---" : info.energyExpenditure.format("%.1f");
     	}
     	return "000";    	
     }
@@ -189,7 +178,7 @@ class AltFieldsView extends Ui.DataField {
 		dc.setColor(Gfx.COLOR_TRANSPARENT, bgColor);
 		dc.clear();
     	// Call parent’s onUpdate(dc) to redraw the layout
-        View.onUpdate( dc );
+//        View.onUpdate( dc );
 		
 		dc.drawBitmap(pos[0], pos[1], graphImg);
 		dc.setColor(color2 , bgColor);
