@@ -4,7 +4,7 @@
     <string id="graph_scale">Graph scale (seconds per bar)</string>
     <string id="prompt">Prompt</string>
     <string id="graph">Graph</string>
-    <string id="fifthField">Sixth Field</string>
+    <string id="fifthField">Fifth Field</string>
     <string id="sixthField">Sixth Field</string>
     <string id="pace">Pace</string>
     <string id="cadence">Cadence</string>

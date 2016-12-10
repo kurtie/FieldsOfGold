@@ -1,3 +1,21 @@
+/*
+	Copyright Jose R. Cabanes
+	
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	
+	    http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+
+*/
+
+
 using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
@@ -37,14 +55,14 @@ class AltFieldsView extends Ui.DataField {
 	var fld6Val;
 
     function initialize() {
+//    	Sys.println("C0");
         DataField.initialize();
-        var app= Application.getApp();
-        vRunnerSpeed= app.getProperty("VRUNNER_SPEED");
-        heartRateGraph.initialize(app.getProperty("GRAPH_SCALE"));
-        fld1Type= app.getProperty("GRAPH").toNumber();
-        fld5Type= app.getProperty("FIFTH_FIELD").toNumber();
+        vRunnerSpeed= getParam("VRUNNER_SPEED", 300);
+        heartRateGraph.initialize_(getParam("GRAPH_SCALE", 5));
+        fld1Type= getParam("GRAPH", 2);
+        fld5Type= getParam("FIFTH_FIELD",4);
         fld5Txt=getFieldLabel(fld5Type);
-        fld6Type= app.getProperty("SIXTH_FIELD").toNumber();
+        fld6Type= getParam("SIXTH_FIELD",0);
         fld6Txt=getFieldLabel(fld6Type);
         blackBG= getBackgroundColor() == Gfx.COLOR_BLACK;
         runnerImg= getImage(Rez.Drawables.Runner, Rez.Drawables.RunnerBlack);
@@ -53,8 +71,16 @@ class AltFieldsView extends Ui.DataField {
         	getImage(Rez.Drawables.HeartIcon, Rez.Drawables.HeartIconBlack ) :
         	getImage(Rez.Drawables.AltIcon, Rez.Drawables.AltIconBlack );
         
-        var movingAvg= Application.getApp().getProperty("MOVING_AVG").toNumber();
+        var movingAvg= getParam("MOVING_AVG", 10);
         pace.init(movingAvg);
+    }
+    
+    function getParam(name, deflt) {
+    	try {
+    		return Application.getApp().getProperty(name).toNumber();
+    	} catch(ex) {
+    		return deflt;
+    	}
     }
     
     function getFieldLabel(type) {
@@ -80,13 +106,15 @@ class AltFieldsView extends Ui.DataField {
     	return Ui.loadResource(res);
     }
     
-    function onLayout(dc) {   
+    function onLayout(dc) {  
+    	// Sys.println("C1"); 
         //pos= dc.getHeight() > 180 ? posRound : posSemiRound;
 		var ps= dc.getHeight() > 180 ? Rez.Strings.pos_round : Rez.Strings.pos_semiround;
-		ps.toNumber();		// This is needed for the widget to work (at least on the simulator)
 		var p= Ui.loadResource(ps);
+		var arr= p.toCharArray();
+		var hex= "0123456789ABCDEF";
 		for (var i=0; i<38; i+=2) {
-			pos[i >> 1]= ("0x"+p.substring(i, i+2)).toNumber();
+			pos[i >> 1]= hex.find(arr[i].toString())* 16 + hex.find(arr[i+1].toString()); 
 		}
     }
     
@@ -102,9 +130,10 @@ class AltFieldsView extends Ui.DataField {
     //! The given info object contains all the current workout
     //! information. Calculate a value and save it locally in this method.
     function compute(info) {
+//    	Sys.println("C2");
 		if (info!=null) {			
 			if (info.timerTime  != null) {
-				var secs= info.timerTime  / 1000;
+				var secs= info.timerTime  / 1000;				
 				if (secs >= 3600) {
 				    time= (secs/ 3600) + ":" + (secs / 60 % 60).format("%02d");
 				    timeSub= (secs % 60).format("%02d");
@@ -162,6 +191,7 @@ class AltFieldsView extends Ui.DataField {
     //! Display the value you computed here. This will be called
     //! once a second when the data field is visible.
     function onUpdate(dc) {
+    	// Sys.println("C3");
     	var width= dc.getWidth();
     	var height= dc.getHeight();
     	var isRound= dc.getHeight() > 180;
